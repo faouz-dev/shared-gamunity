@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc -w"
+    "build:watch": "tsc -w",
+    "prepare": "npm run build"
   },
   "author": "faouz-dev",
   "devDependencies": {
