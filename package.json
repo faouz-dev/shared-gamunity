@@ -1,0 +1,21 @@
+{
+  "name": "gamunity-shared",
+  "version": "1.0.0",
+  "description": "shared content between frontend end backend",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "author": "faouz-dev",
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
